@@ -1570,7 +1570,7 @@ client.on('message' , message => {
  });
 
 
-    Rocket.login('NDg1NzIyOTExNTI1NTY4NTE0.DoC1ww.3v08fH0_22T4hDS5f0aGqW4kqEY');
+    Rocket.login(process.env.BOT_TOKEN);
 
 
 
